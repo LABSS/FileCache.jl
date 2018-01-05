@@ -28,7 +28,7 @@ Or, if you want to do something more involved:
 ```julia
 df = maybeload("path/to/my_data.csv") do file
   df = CSV.read(file)
-  // ...do some preprocessing on df...
+  # ...do some preprocessing on df...
   df
 end
 ```
