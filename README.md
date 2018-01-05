@@ -8,6 +8,12 @@ To install, from the Julia REPL:
 Pkg.clone("git@github.com:LABSS/FileCache.jl.git")
 ```
 
+The package provides a single function:
+
+```julia
+maybeload(f::Function, path::AbstractString)
+```
+
 For example, to load a CSV file into a DataFrame, you can use it like this:
 
 ```julia
