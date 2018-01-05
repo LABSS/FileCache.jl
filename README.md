@@ -4,7 +4,7 @@ A very small [Julia](https://julialang.org/) utility package for caching the con
 
 To install, from the Julia REPL:
 
-```
+```julia
 Pkg.clone("git@github.com:nicolaspayette/FileCache.jl.git")
 ```
 
