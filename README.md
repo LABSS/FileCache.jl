@@ -5,7 +5,7 @@ A very small [Julia](https://julialang.org/) utility package for caching the con
 To install, from the Julia REPL:
 
 ```julia
-Pkg.clone("git@github.com:nicolaspayette/FileCache.jl.git")
+Pkg.clone("git@github.com:LABSS/FileCache.jl.git")
 ```
 
 For example, to load a CSV file into a DataFrame, you can use it like this:
